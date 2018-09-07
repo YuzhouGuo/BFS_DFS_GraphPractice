@@ -16,19 +16,16 @@ public class Graph {
 	}
 	
 	public void addEdge (int i, int j){
-		// ADD YOUR CODE HERE
 		this.adjacency[i][j] = true;
 		this.adjacency[j][i] = true;
 	}
 	
 	public void removeEdge (int i, int j){
-		// ADD YOUR CODE HERE
 		this.adjacency[i][j] = false;
 		this.adjacency[j][i] = false;
 	}
 	
 	public int nbEdges(){
-		// ADD YOUR CODE HERE
 		int counter = 0; int indep = 0;
 		for (int i=0; i<this.nbNodes; i++)
 		{
@@ -46,7 +43,6 @@ public class Graph {
 	}
 	
 	public boolean cycle(int start){
-		// ADD YOUR CODE HERE
 		int edge = 0;
 		for (int j=0; j<this.nbNodes; j++)
 		{
@@ -72,7 +68,6 @@ public class Graph {
 	}
 	
 	public int shortestPath(int start, int end){
-		// ADD YOUR CODE HERE
 		if(this.adjacency[start][end]==true)
 			return 1;
 		else if ((tryWalk(start).length==0)||(tryWalk(end).length==0))
