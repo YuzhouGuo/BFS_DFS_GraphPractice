@@ -3,4 +3,4 @@
 ### Edges are adding up between points and the algorithm is able to find out the shortest path (DFS) and determine if one particular node is part of a circle.
  * "Graph.java" is the only source code file.
  * The other two files both work as testers. The file named "CrazyTester3" is the third (final) version of the tester I modified from the original tester, which contains more nodes and edges to make sure the algorithm works.
- * Page 3 of the "A4" pdf gives the instruction of this graph-algorithm assignment.
+ * Page 3 of the "A4" pdf gives a instruction of this graph-algorithm assignment.
